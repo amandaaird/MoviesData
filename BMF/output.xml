@@ -1,9 +1,0 @@
-<study>
-  <check>
-    <message>No errors found in configuration file syntax.</message>
-    <message src="BMF\exp00000\log\librec-20220715_082423.log">No errors found in experiment 0 log.</message>
-    <message src="BMF\exp00001\log\librec-20220715_082427.log">No errors found in experiment 1 log.</message>
-    <message src="BMF\exp00002\log\librec-20220715_082430.log">No errors found in experiment 2 log.</message>
-    <message src="BMF\exp00003\log\librec-20220715_082434.log">No errors found in experiment 3 log.</message>
-  </check>
-</study>

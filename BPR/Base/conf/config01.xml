@@ -48,7 +48,7 @@
 		<ranking>true</ranking>
 		<list-size>50</list-size>
 		<class>ndcg</class>
-		<protected-feature ref="fea:GENDER_F"/>
+		<protected-feature ref="fea:notpop"/>
 	</metric>
 ​
         <metric>

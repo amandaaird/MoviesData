@@ -38,7 +38,7 @@
 		<iterator-max>50</iterator-max>
 		<user-reg><lower>0.001</lower><upper>0.8</upper></user-reg>
 		<item-reg><lower>0.001</lower><upper>0.8</upper></item-reg>
-		<num-factors type="discrete"><lower>5</lower><upper>150</upper></num-factors>
+		<num-factors>50</num-factors>
 		<learn-rate>0.01</learn-rate>
         <learn-rate-max>0.1</learn-rate-max>
 	</alg>

@@ -33,24 +33,24 @@
 		<metric>ndcg_metric.py</metric>
 	</optimize>   
 	
-	<!-- ALGORITHM SECTION -->
+		<!-- ALGORITHM SECTION -->
 	<alg ref="alg:bpr">
 		<iterator-max>50</iterator-max>
 		<user-reg><lower>0.001</lower><upper>0.8</upper></user-reg>
 		<item-reg><lower>0.001</lower><upper>0.8</upper></item-reg>
-		<num-factors>50</num-factors>
+		<num-factors type="discrete"><lower>5</lower><upper>150</upper></num-factors>
 		<learn-rate>0.01</learn-rate>
         <learn-rate-max>0.1</learn-rate-max>
 	</alg>
-
+​
 	<!-- METRICS SECTION -->
 	<metric>
 		<ranking>true</ranking>
 		<list-size>50</list-size>
 		<class>ndcg</class>
-		<protected-feature ref="fea:notpop"/>
+		<protected-feature ref="fea:GENDER_F"/>
 	</metric>
-
+​
         <metric>
 		<script src="system" lang="python3">
 			<script-name>ndcg_metric.py</script-name>
@@ -59,7 +59,7 @@
 	</metric>
 	
 	<!-- POST-PROCESSING SECTION -->
-
+​
 	<post>
 		<script lang="python3" src="system">
 			<script-name>result_graphics.py</script-name>

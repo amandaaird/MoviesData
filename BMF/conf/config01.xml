@@ -19,7 +19,7 @@
 	<features>
 		<appender-class>net.librec.data.convertor.appender.ItemFeatureAppender</appender-class>
 		<item-feature-file>movieid_feature_df.csv</item-feature-file>
-		<protected-feature name="fea:notpop" type="item">notpop</protected-feature>
+		<protected-feature name="fea:short" type="item">short</protected-feature>
 	</features>
 
 	<optimize>
@@ -63,7 +63,7 @@
 		<script src="system" lang="python3">
 			<script-name>psp.py</script-name>
 			<param name="list_size">10</param>
-			<param name="protected_feature">notpop</param>
+			<param name="protected_feature">short</param>
 		</script>
 	</metric>
 	

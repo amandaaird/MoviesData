@@ -21,11 +21,6 @@
 		<item-feature-file>movieid_feature_df.csv</item-feature-file>
 		<protected-feature name="fea:notpop" type="item">notpop</protected-feature>
 	</features>
-
-	<optimize>
-		<iterations>100</iterations> 
-		<metric>ndcg_metric.py</metric>
-	</optimize> 
 	
 	<!-- SPLITTER SECTION -->
 	<splitter>
@@ -33,16 +28,15 @@
 		<save>true</save>
 	</splitter>
 	
+	<optimize>
+		<iterations>100</iterations> 
+		<metric>ndcg_metric.py</metric>
+	</optimize> 
+	
 	<!-- ALGORITHM SECTION -->
-    <alg ref="alg:biasedmf">
-		<similarity type="item">pcc</similarity> -->
-		<iterator-max>60</iterator-max>
-		<user-reg><lower>0.001</lower><upper>0.8</upper></user-reg>
-		<item-reg><lower>0.001</lower><upper>0.8</upper></item-reg>
-        <num-factors type="discrete"><lower>20</lower><upper>150</upper></num-factors>
-		<learn-rate-max><lower>0.001</lower><upper>0.1</upper></learn-rate-max>
-		<learn-rate><lower>0.00001</lower><upper>0.1</upper></learn-rate>
-
+	<alg ref="alg:slim">
+		<l1-reg><lower>0.1</lower><upper>10</upper></l1-reg>
+		<l2-reg><lower>0.1</lower><upper>10</upper></l2-reg>
 	</alg>
 
 	<!-- METRICS SECTION -->
@@ -50,20 +44,13 @@
 		<ranking>true</ranking>
 		<list-size>50</list-size>
 		<class>ndcg</class>
+		<protected-feature ref="fea:notpop"/>
 	</metric>
 
 	<metric>
 		<script src="system" lang="python3">
 			<script-name>ndcg_metric.py</script-name>
-			<param name="list_size">10</param>
-		</script>
-	</metric>
-	
-	<metric>
-		<script src="system" lang="python3">
-			<script-name>psp.py</script-name>
-			<param name="list_size">10</param>
-			<param name="protected_feature">notpop</param>
+			<param name="list_size">50</param>
 		</script>
 	</metric>
 	

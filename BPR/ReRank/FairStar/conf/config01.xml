@@ -30,7 +30,7 @@
 	
 	<!-- ALGORITHM SECTION -->
 	<alg ref="alg:bpr">
-		<iterator-max>1</iterator-max>
+		<iterator-max>50</iterator-max>
 		<user-reg>0.1022480751817622</user-reg>
 		<item-reg>0.007751594282840541</item-reg>
 		<num-factors>84</num-factors>

@@ -31,9 +31,9 @@
 	<!-- ALGORITHM SECTION -->
 	<alg ref="alg:bpr">
 		<iterator-max>1</iterator-max>
-		<user-reg>0.5021287965568421</user-reg>
-		<item-reg>0.24496644029345796</item-reg>
-		<num-factors>113</num-factors>
+		<user-reg>0.1022480751817622</user-reg>
+		<item-reg>0.007751594282840541</item-reg>
+		<num-factors>84</num-factors>
 		<learn-rate>0.01</learn-rate>
         <learn-rate-max>0.1</learn-rate-max>
 	</alg>

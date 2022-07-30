@@ -42,7 +42,7 @@
 	<!-- METRICS SECTION -->
 	<metric>
 		<ranking>true</ranking>
-		<list-size>50</list-size>
+		<list-size>20</list-size>
 		<class>ndcg</class>
 		<protected-feature ref="fea:short"/>
 	</metric>

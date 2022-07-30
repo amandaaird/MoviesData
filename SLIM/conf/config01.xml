@@ -35,8 +35,8 @@
 	
 	<!-- ALGORITHM SECTION -->
 	<alg ref="alg:slim">
-		<l1-reg><lower>0.1</lower><upper>10</upper></l1-reg>
-		<l2-reg><lower>0.1</lower><upper>10</upper></l2-reg>
+		<l1-reg><lower>0.1</lower><upper>2</upper></l1-reg>
+		<l2-reg><lower>0.1</lower><upper>2</upper></l2-reg>
 	</alg>
 
 	<!-- METRICS SECTION -->

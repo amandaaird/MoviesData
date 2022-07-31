@@ -29,16 +29,13 @@
 	</splitter>
 	
 	<!-- ALGORITHM SECTION -->
-    <alg ref="alg:biasedmf">
-		<similarity type="item">pcc</similarity>
-		<iterator-max>50</iterator-max>
-		<user-reg>0.10399838188474195</user-reg>
-		<item-reg>0.48023953343836434</item-reg>
-        <num-factors type="discrete">71</num-factors>
-		<learn-rate-max>0.062085699965621695</learn-rate-max>
-		<learn-rate>0.0004293909694346107</learn-rate>
+        <alg ref="alg:rankals">
+                <iterator-max>10</iterator-max>
+        <num-factors type="discrete">
+                        <value>5</value>
+                </num-factors>
+        </alg>
 
-	</alg>
 
 	<!-- METRICS SECTION -->
 	<metric>
@@ -66,7 +63,7 @@
 		<script lang="python3" src="system">
 			<script-name>fairrec_rerank.py</script-name>
 			<param name="max_len">10</param>
-			<param name="lambda">
+			<param name="alpha">
 				<value>0.0</value>
 				<value>0.0</value>
 				<value>0.1</value>
@@ -80,8 +77,6 @@
 				<value>0.9</value>
 				<value>1</value>
 			</param>
-			<param name="binary">False</param>
-			<param name="protected_feature" ref="fea:short"/>
 		</script>
 	</rerank>
 	

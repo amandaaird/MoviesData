@@ -79,8 +79,8 @@
 				<value>0.9</value>
 				<value>1</value>
 			</param>
-			<param name="binary">False</param>
-			<param name="protected_feature" ref="fea:short"/>
+<!-- 			<param name="binary">False</param>
+			<param name="protected_feature" ref="fea:short"/> -->
 		</script>
 	</rerank>
 	

@@ -28,35 +28,43 @@
 		<save>true</save>
 	</splitter>
 	
-	<optimize>
-		<iterations>100</iterations> 
-		<metric>ndcg_metric.py</metric>
-	</optimize> 
-	
-	<!-- ALGORITHM SECTION -->
-	<alg ref="alg:slim">
-		<l1-reg><lower>0.1</lower><upper>2</upper></l1-reg>
-		<l2-reg><lower>0.1</lower><upper>2</upper></l2-reg>
-	</alg>
+        <!-- <optimize>
+                <iterations>100</iterations>
+                <metric>ndcg_metric.py</metric>
+        </optimize> -->
 
-	<!-- METRICS SECTION -->
-	<metric>
-		<ranking>true</ranking>
-		<list-size>50</list-size>
-		<class>ndcg</class>
-		<protected-feature ref="fea:short"/>
-		
-		<script src="system" lang="python3">
-			<script-name>ndcg_metric.py</script-name>
-			<param name="list_size">10</param>
-		</script>
-		
-		<script src="system" lang="python3">
-			<script-name>psp.py</script-name>
-			<param name="list_size">10</param>
-			<param name="protected_feature">short</param>
-		</script>
-	</metric>
+        <!-- ALGORITHM SECTION -->
+        <alg ref="alg:slim">
+                <iterator-max>15</iterator-max>
+                <l1-reg><value>0.5</value>
+                        <value>1</value>
+                        <value>1.5</value>
+                        <value>2</value></l1-reg>
+                <l2-reg><value>0.5</value>
+                        <value>1</value>
+                        <value>1.5</value>
+                        <value>2</value></l2-reg>
+        </alg>
+
+        <!-- METRICS SECTION -->
+        <metric>
+                <ranking>true</ranking>
+                <list-size>25</list-size>
+                <class>ndcg</class>
+                <protected-feature ref="fea:short"/>
+
+                <script src="system" lang="python3">
+                        <script-name>ndcg_metric.py</script-name>
+                        <param name="list_size">10</param>
+                </script>
+
+                <script src="system" lang="python3">
+                        <script-name>psp.py</script-name>
+                        <param name="list_size">10</param>
+                        <param name="protected_feature">short</param>
+                </script>
+        </metric>
+
 	
 	<!-- POST-PROCESSING SECTION -->
 

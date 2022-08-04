@@ -1,6 +1,8 @@
 <librec-auto>
 	<random-seed>202110</random-seed>
 	<thread-count>1</thread-count>
+	<library src="system">default-algorithms.xml</library>
+	
 	<data>
 		<data-dir>data</data-dir>
 		<format>UIR</format>
@@ -59,28 +61,28 @@
 			<param var="true" name="lambda">0</param>
 			<param name="lambda">
 				<value>0.0</value>
-				<value>0.0</value>
-				<value>0.1</value>
+			
+				
 				<value>0.2</value>
-				<value>0.3</value>
+				
 				<value>0.4</value>
-				<value>0.5</value>
+				
 				<value>0.6</value>
-				<value>0.7</value>
+			
 				<value>0.8</value>
-				<value>0.9</value>
+			
 			</param>
 			<param name="alpha">
 				<value>0.0</value>
-				<value>0.1</value>
+				
 				<value>0.2</value>
-				<value>0.3</value>
+				
 				<value>0.4</value>
-				<value>0.5</value>
+				
 				<value>0.6</value>
-				<value>0.7</value>
+				
 				<value>0.8</value>
-				<value>0.9</value>
+			
 			</param>
 			<param name="binary">False</param>
 			<param name="protected_feature" type="item">loan_buck_5</param>

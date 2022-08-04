@@ -26,12 +26,12 @@
 	<splitter>
 		<model count="3">kcv</model>
 		<save>true</save>
-		<previous-max>0.0325</previous-max>
 	</splitter>
 
 	<optimize>
 		<iterations>50</iterations> 
 		<metric>ndcg_metric.py</metric>
+		<previous-max>0.0325</previous-max>
 	</optimize> 
 
 	<!-- ALGORITHM SECTION -->

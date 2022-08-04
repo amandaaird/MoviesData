@@ -53,7 +53,6 @@
 		<script lang="python3" src="system">
 			<script-name>pfar_rerank.py</script-name>
 			<param name="max_len">10</param>
-			<param var="true" name="lambda">0</param>
 			<param name="lambda">
 				<lower>0.01</lower><upper>1</upper>
 			</param>

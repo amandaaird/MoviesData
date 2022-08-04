@@ -61,7 +61,7 @@
 				<lower>0.01</lower><upper>1</upper>
 			</param>
 			<param name="binary">False</param>
-			<param name="protected_feature" type="item">loan_buck_5</param>
+			<param name="protected_feature" ref="fea:loan_buck_5"/>
 		</script>
 	</rerank>
 	

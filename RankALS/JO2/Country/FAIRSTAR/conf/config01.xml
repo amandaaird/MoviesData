@@ -26,6 +26,7 @@
     <optimize>
         <iterations>30</iterations>
         <metric>ndcg_metric.py</metric>
+        <previous-max>0.0554</previous-max>
     </optimize>
     <!-- ALGORITHM SECTION -->
     <alg ref="alg:rankals">

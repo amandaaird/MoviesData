@@ -1,0 +1,311 @@
+Base,Reranker,Metric,Value,Optimization,Protected
+BPR,None,PSP,-0.828,Original,
+BMF,None,PSP,-0.628,Original,
+SLIM,None,PSP,-0.773,Original,
+RankALS,None,PSP,-0.723,Original,
+BPR,FAR,PSP,-0.328,Separate,Loan Bucket 5
+BMF,FAR,PSP,0.107,Separate,Loan Bucket 5
+SLIM,FAR,PSP,-0.094,Separate,Loan Bucket 5
+RankALS,FAR,PSP,-0.321,Separate,Loan Bucket 5
+BPR,FairStar,PSP,-0.603,Separate,Loan Bucket 5
+BMF,FairStar,PSP,0.106,Separate,Loan Bucket 5
+SLIM,FairStar,PSP,-0.094,Separate,Loan Bucket 5
+RankALS,FairStar,PSP,-0.331,Separate,Loan Bucket 5
+BPR,PFAR,PSP,-0.377,Separate,Loan Bucket 5
+BMF,PFAR,PSP,-0.326,Separate,Loan Bucket 5
+SLIM,PFAR,PSP,-0.141,Separate,Loan Bucket 5
+RankALS,PFAR,PSP,-0.368,Separate,Loan Bucket 5
+BPR,FAR,PSP,-0.64,Joint,Loan Bucket 5
+BMF,FAR,PSP,-0.202,Joint,Loan Bucket 5
+SLIM,FAR,PSP,-0.202,Joint,Loan Bucket 5
+RankALS,FAR,PSP,-0.368,Joint,Loan Bucket 5
+BPR,FairStar,PSP,-0.61,Joint,Loan Bucket 5
+BMF,FairStar,PSP,-0.059,Joint,Loan Bucket 5
+SLIM,FairStar,PSP,-0.345,Joint,Loan Bucket 5
+RankALS,FairStar,PSP,-0.37,Joint,Loan Bucket 5
+BPR,PFAR,PSP,-0.64,Joint,Loan Bucket 5
+BMF,PFAR,PSP,-0.198,Joint,Loan Bucket 5
+SLIM,PFAR,PSP,-0.177,Joint,Loan Bucket 5
+RankALS,PFAR,PSP,-0.368,Joint,Loan Bucket 5
+BPR,FAR,PSP,-0.29,Joint-5%,Loan Bucket 5
+BMF,FAR,PSP,0.107,Joint-5%,Loan Bucket 5
+SLIM,FAR,PSP,-0.206,Joint-5%,Loan Bucket 5
+RankALS,FAR,PSP,-0.345,Joint-5%,
+BPR,FairStar,PSP,-0.603,Joint-5%,Loan Bucket 5
+BMF,FairStar,PSP,0.106,Joint-5%,Loan Bucket 5
+SLIM,FairStar,PSP,-0.311,Joint-5%,Loan Bucket 5
+RankALS,FairStar,PSP,-0.511,Joint-5%,Loan Bucket 5
+BPR,PFAR,PSP,-0.292,Joint-5%,Loan Bucket 5
+BMF,PFAR,PSP,0.107,Joint-5%,Loan Bucket 5
+SLIM,PFAR,PSP,-0.206,Joint-5%,Loan Bucket 5
+RankALS,PFAR,PSP,-0.331,Joint-5%,Loan Bucket 5
+BPR,FAR,PSP,-0.29,Joint-2%,Loan Bucket 5
+BMF,FAR,PSP,-0.486,Joint-2%,Loan Bucket 5
+SLIM,FAR,PSP,-0.773,Joint-2%,Loan Bucket 5
+RankALS,FAR,PSP,-0.723,Joint-2%,
+BPR,FairStar,PSP,0.107,Joint-2%,Loan Bucket 5
+BMF,FairStar,PSP,0.0461,Joint-2%,Loan Bucket 5
+SLIM,FairStar,PSP,-0.773,Joint-2%,Loan Bucket 5
+RankALS,FairStar,PSP,-0.723,Joint-2%,Loan Bucket 5
+BPR,PFAR,PSP,-0.7467,Joint-2%,Loan Bucket 5
+BMF,PFAR,PSP,-0.615,Joint-2%,Loan Bucket 5
+SLIM,PFAR,PSP,-0.773,Joint-2%,Loan Bucket 5
+RankALS,PFAR,PSP,-0.698,Joint-2%,Loan Bucket 5
+BPR,None,PSP,-0.965,Original,COUNTRY_low_pfr
+BMF,None,PSP,-0.727,Original,COUNTRY_low_pfr
+SLIM,None,PSP,-0.719,Original,COUNTRY_low_pfr
+RankALS,None,PSP,-0.723,Original,COUNTRY_low_pfr
+BPR,FAR,PSP,-0.512,Separate,COUNTRY_low_pfr
+BMF,FAR,PSP,-0.302,Separate,COUNTRY_low_pfr
+SLIM,FAR,PSP,-0.141,Separate,COUNTRY_low_pfr
+RankALS,FAR,PSP,-0.441,Separate,COUNTRY_low_pfr
+BPR,FairStar,PSP,-0.603,Separate,COUNTRY_low_pfr
+BMF,FairStar,PSP,-0.306,Separate,COUNTRY_low_pfr
+SLIM,FairStar,PSP,-0.208,Separate,COUNTRY_low_pfr
+RankALS,FairStar,PSP,-0.221,Separate,COUNTRY_low_pfr
+BPR,PFAR,PSP,-0.512,Separate,COUNTRY_low_pfr
+BMF,PFAR,PSP,-0.302,Separate,COUNTRY_low_pfr
+SLIM,PFAR,PSP,-0.141,Separate,COUNTRY_low_pfr
+RankALS,PFAR,PSP,-0.411,Separate,COUNTRY_low_pfr
+BPR,FAR,PSP,-0.512,Joint,COUNTRY_low_pfr
+BMF,FAR,PSP,-0.269,Joint,COUNTRY_low_pfr
+SLIM,FAR,PSP,-0.043,Joint,COUNTRY_low_pfr
+RankALS,FAR,PSP,-0.409,Joint,COUNTRY_low_pfr
+BPR,FairStar,PSP,-0.34,Joint,COUNTRY_low_pfr
+BMF,FairStar,PSP,-0.581,Joint,COUNTRY_low_pfr
+SLIM,FairStar,PSP,-0.345,Joint,COUNTRY_low_pfr
+RankALS,FairStar,PSP,-0.109,Joint,COUNTRY_low_pfr
+BPR,PFAR,PSP,-0.522,Joint,COUNTRY_low_pfr
+BMF,PFAR,PSP,-0.269,Joint,COUNTRY_low_pfr
+SLIM,PFAR,PSP,-0.173,Joint,COUNTRY_low_pfr
+RankALS,PFAR,PSP,-0.222,Joint,COUNTRY_low_pfr
+BPR,FAR,PSP,-0.29,Joint-5%,COUNTRY_low_pfr
+BMF,FAR,PSP,0.107,Joint-5%,COUNTRY_low_pfr
+SLIM,FAR,PSP,-0.206,Joint-5%,COUNTRY_low_pfr
+RankALS,FAR,PSP,-0.411,Joint-5%,COUNTRY_low_pfr
+BPR,FairStar,PSP,-0.603,Joint-5%,COUNTRY_low_pfr
+BMF,FairStar,PSP,0.106,Joint-5%,COUNTRY_low_pfr
+SLIM,FairStar,PSP,-0.311,Joint-5%,COUNTRY_low_pfr
+RankALS,FairStar,PSP,-0.414,Joint-5%,COUNTRY_low_pfr
+BPR,PFAR,PSP,-0.25,Joint-5%,COUNTRY_low_pfr
+BMF,PFAR,PSP,0.107,Joint-5%,COUNTRY_low_pfr
+SLIM,PFAR,PSP,-0.116,Joint-5%,COUNTRY_low_pfr
+RankALS,PFAR,PSP,-0.498,Joint-5%,COUNTRY_low_pfr
+BPR,FAR,PSP,-0.29,Joint-2%,COUNTRY_low_pfr
+BMF,FAR,PSP,-0.486,Joint-2%,COUNTRY_low_pfr
+SLIM,FAR,PSP,-0.773,Joint-2%,COUNTRY_low_pfr
+RankALS,FAR,PSP,-0.723,Joint-2%,COUNTRY_low_pfr
+BPR,FairStar,PSP,-0.71,Joint-2%,COUNTRY_low_pfr
+BMF,FairStar,PSP,-0.715,Joint-2%,COUNTRY_low_pfr
+SLIM,FairStar,PSP,-0.773,Joint-2%,COUNTRY_low_pfr
+RankALS,FairStar,PSP,-0.723,Joint-2%,COUNTRY_low_pfr
+BPR,PFAR,PSP,-0.249,Joint-2%,COUNTRY_low_pfr
+BMF,PFAR,PSP,-0.486,Joint-2%,COUNTRY_low_pfr
+SLIM,PFAR,PSP,-0.773,Joint-2%,COUNTRY_low_pfr
+RankALS,PFAR,PSP,-0.723,Joint-2%,COUNTRY_low_pfr
+BPR,None,PSP,-0.828,Original,
+BMF,None,PSP,-0.628,Original,
+SLIM,None,PSP,-0.773,Original,
+RankALS,None,PSP,-0.723,Original,
+BPR,FAR,PSP,-0.328,Separate,Loan Bucket 5
+BMF,FAR,PSP,0.107,Separate,Loan Bucket 5
+SLIM,FAR,PSP,-0.094,Separate,Loan Bucket 5
+RankALS,FAR,PSP,-0.321,Separate,Loan Bucket 5
+BPR,FairStar,PSP,-0.603,Separate,Loan Bucket 5
+BMF,FairStar,PSP,0.106,Separate,Loan Bucket 5
+SLIM,FairStar,PSP,-0.094,Separate,Loan Bucket 5
+RankALS,FairStar,PSP,-0.331,Separate,Loan Bucket 5
+BPR,PFAR,PSP,-0.377,Separate,Loan Bucket 5
+BMF,PFAR,PSP,-0.326,Separate,Loan Bucket 5
+SLIM,PFAR,PSP,-0.141,Separate,Loan Bucket 5
+RankALS,PFAR,PSP,-0.368,Separate,Loan Bucket 5
+BPR,FAR,PSP,-0.64,Joint,Loan Bucket 5
+BMF,FAR,PSP,-0.202,Joint,Loan Bucket 5
+SLIM,FAR,PSP,-0.202,Joint,Loan Bucket 5
+RankALS,FAR,PSP,-0.368,Joint,Loan Bucket 5
+BPR,FairStar,PSP,-0.61,Joint,Loan Bucket 5
+SLIM,FairStar,PSP,-0.345,Joint,Loan Bucket 5
+RankALS,FairStar,PSP,-0.37,Joint,Loan Bucket 5
+BPR,PFAR,PSP,-0.64,Joint,Loan Bucket 5
+BMF,PFAR,PSP,-0.198,Joint,Loan Bucket 5
+SLIM,PFAR,PSP,-0.177,Joint,Loan Bucket 5
+RankALS,PFAR,PSP,-0.368,Joint,Loan Bucket 5
+BPR,FAR,PSP,-0.29,Joint-5%,Loan Bucket 5
+BMF,FAR,PSP,0.107,Joint-5%,Loan Bucket 5
+SLIM,FAR,PSP,-0.206,Joint-5%,Loan Bucket 5
+RankALS,FAR,PSP,-0.345,Joint-5%,
+BPR,FairStar,PSP,-0.603,Joint-5%,Loan Bucket 5
+BMF,FairStar,PSP,0.106,Joint-5%,Loan Bucket 5
+SLIM,FairStar,PSP,-0.311,Joint-5%,Loan Bucket 5
+RankALS,FairStar,PSP,-0.511,Joint-5%,Loan Bucket 5
+BPR,PFAR,PSP,-0.292,Joint-5%,Loan Bucket 5
+BMF,PFAR,PSP,0.107,Joint-5%,Loan Bucket 5
+SLIM,PFAR,PSP,-0.206,Joint-5%,Loan Bucket 5
+RankALS,PFAR,PSP,-0.331,Joint-5%,Loan Bucket 5
+BPR,FAR,PSP,-0.29,Joint-2%,Loan Bucket 5
+BMF,FAR,PSP,-0.486,Joint-2%,Loan Bucket 5
+SLIM,FAR,PSP,-0.773,Joint-2%,Loan Bucket 5
+RankALS,FAR,PSP,-0.723,Joint-2%,
+BPR,FairStar,PSP,0.107,Joint-2%,Loan Bucket 5
+BMF,FairStar,PSP,0.0461,Joint-2%,Loan Bucket 5
+SLIM,FairStar,PSP,-0.773,Joint-2%,Loan Bucket 5
+RankALS,FairStar,PSP,-0.723,Joint-2%,Loan Bucket 5
+BPR,PFAR,PSP,-0.7467,Joint-2%,Loan Bucket 5
+BMF,PFAR,PSP,-0.615,Joint-2%,Loan Bucket 5
+SLIM,PFAR,PSP,-0.773,Joint-2%,Loan Bucket 5
+RankALS,PFAR,PSP,-0.698,Joint-2%,Loan Bucket 5
+BPR,None,NDCG,0.0658,Original,
+BMF,None,NDCG,0.0325,Original,
+SLIM,None,NDCG,0.0167,Original,
+RankALS,None,NDCG,0.0554,Original,
+BPR,FAR,NDCG,0.0595,Separate,Loan Bucket 5
+BMF,FAR,NDCG,0.033,Separate,Loan Bucket 5
+SLIM,FAR,NDCG,0.0161,Separate,Loan Bucket 5
+RankALS,FAR,NDCG,0.0522,Separate,Loan Bucket 5
+BPR,FairStar,NDCG,0.0596,Separate,Loan Bucket 5
+BMF,FairStar,NDCG,0.0341,Separate,Loan Bucket 5
+SLIM,FairStar,NDCG,0.016,Separate,Loan Bucket 5
+RankALS,FairStar,NDCG,0.0529,Separate,Loan Bucket 5
+BPR,PFAR,NDCG,0.0633,Separate,Loan Bucket 5
+BMF,PFAR,NDCG,0.0594,Separate,Loan Bucket 5
+SLIM,PFAR,NDCG,0.016,Separate,Loan Bucket 5
+RankALS,PFAR,NDCG,0.0535,Separate,Loan Bucket 5
+BPR,FAR,NDCG,0.0642,Joint,Loan Bucket 5
+BMF,FAR,NDCG,0.0312,Joint,Loan Bucket 5
+SLIM,FAR,NDCG,0.015,Joint,Loan Bucket 5
+RankALS,FAR,NDCG,0.0535,Joint,Loan Bucket 5
+BPR,FairStar,NDCG,0.0593,Joint,Loan Bucket 5
+BMF,FairStar,NDCG,0.0292,Joint,Loan Bucket 5
+SLIM,FairStar,NDCG,0.0159,Joint,Loan Bucket 5
+RankALS,FairStar,NDCG,0.0527,Joint,Loan Bucket 5
+BPR,PFAR,NDCG,0.0645,Joint,Loan Bucket 5
+BMF,PFAR,NDCG,0.0312,Joint,Loan Bucket 5
+SLIM,PFAR,NDCG,0.016,Joint,Loan Bucket 5
+RankALS,PFAR,NDCG,0.0535,Joint,Loan Bucket 5
+BPR,FAR,NDCG,0.0694,Joint-5%,Loan Bucket 5
+BMF,FAR,NDCG,0.033,Joint-5%,Loan Bucket 5
+SLIM,FAR,NDCG,0.0162,Joint-5%,Loan Bucket 5
+RankALS,FAR,NDCG,0.0529,Joint-5%,
+BPR,FairStar,NDCG,0.0596,Joint-5%,Loan Bucket 5
+BMF,FairStar,NDCG,0.0341,Joint-5%,Loan Bucket 5
+SLIM,FairStar,NDCG,0.01695,Joint-5%,Loan Bucket 5
+RankALS,FairStar,NDCG,0.0524,Joint-5%,Loan Bucket 5
+BPR,PFAR,NDCG,0.0692,Joint-5%,Loan Bucket 5
+BMF,PFAR,NDCG,0.033,Joint-5%,Loan Bucket 5
+SLIM,PFAR,NDCG,0.0165,Joint-5%,Loan Bucket 5
+RankALS,PFAR,NDCG,0.0529,Joint-5%,Loan Bucket 5
+BPR,FAR,NDCG,0.0694,Joint-2%,Loan Bucket 5
+BMF,FAR,NDCG,0.0326,Joint-2%,Loan Bucket 5
+SLIM,FAR,NDCG,0.0167,Joint-2%,Loan Bucket 5
+RankALS,FAR,NDCG,0.0554,Joint-2%,
+BPR,FairStar,NDCG,0.033,Joint-2%,Loan Bucket 5
+BMF,FairStar,NDCG,0.0331,Joint-2%,Loan Bucket 5
+SLIM,FairStar,NDCG,0.0167,Joint-2%,Loan Bucket 5
+RankALS,FairStar,NDCG,0.0554,Joint-2%,Loan Bucket 5
+BPR,PFAR,NDCG,0.06368,Joint-2%,Loan Bucket 5
+BMF,PFAR,NDCG,0.0303,Joint-2%,Loan Bucket 5
+SLIM,PFAR,NDCG,0.0167,Joint-2%,Loan Bucket 5
+RankALS,PFAR,NDCG,0.0548,Joint-2%,Loan Bucket 5
+BPR,None,NDCG,0.0658,Original,COUNTRY_low_pfr
+BMF,None,NDCG,0.0325,Original,COUNTRY_low_pfr
+SLIM,None,NDCG,0.0167,Original,COUNTRY_low_pfr
+RankALS,None,NDCG,0.0554,Original,COUNTRY_low_pfr
+BPR,FAR,NDCG,0.0642,Separate,COUNTRY_low_pfr
+BMF,FAR,NDCG,0.031,Separate,COUNTRY_low_pfr
+SLIM,FAR,NDCG,0.0164,Separate,COUNTRY_low_pfr
+RankALS,FAR,NDCG,0.0512,Separate,COUNTRY_low_pfr
+BPR,FairStar,NDCG,0.0596,Separate,COUNTRY_low_pfr
+BMF,FairStar,NDCG,0.0341,Separate,COUNTRY_low_pfr
+SLIM,FairStar,NDCG,0.0168,Separate,COUNTRY_low_pfr
+RankALS,FairStar,NDCG,0.0498,Separate,COUNTRY_low_pfr
+BPR,PFAR,NDCG,0.0642,Separate,COUNTRY_low_pfr
+BMF,PFAR,NDCG,0.031,Separate,COUNTRY_low_pfr
+SLIM,PFAR,NDCG,0.0164,Separate,COUNTRY_low_pfr
+RankALS,PFAR,NDCG,0.0515,Separate,COUNTRY_low_pfr
+BPR,FAR,NDCG,0.0594,Joint,COUNTRY_low_pfr
+BMF,FAR,NDCG,0.0291,Joint,COUNTRY_low_pfr
+SLIM,FAR,NDCG,0.0153,Joint,COUNTRY_low_pfr
+RankALS,FAR,NDCG,0.05,Joint,COUNTRY_low_pfr
+BPR,FairStar,NDCG,0.0598,Joint,COUNTRY_low_pfr
+BMF,FairStar,NDCG,0.0292,Joint,COUNTRY_low_pfr
+SLIM,FairStar,NDCG,0.0159,Joint,COUNTRY_low_pfr
+RankALS,FairStar,NDCG,0.0499,Joint,COUNTRY_low_pfr
+BPR,PFAR,NDCG,0.0595,Joint,COUNTRY_low_pfr
+BMF,PFAR,NDCG,0.0291,Joint,COUNTRY_low_pfr
+SLIM,PFAR,NDCG,0.0163,Joint,COUNTRY_low_pfr
+RankALS,PFAR,NDCG,0.05,Joint,COUNTRY_low_pfr
+BPR,FAR,NDCG,0.0694,Joint-5%,COUNTRY_low_pfr
+BMF,FAR,NDCG,0.033,Joint-5%,COUNTRY_low_pfr
+SLIM,FAR,NDCG,0.0162,Joint-5%,COUNTRY_low_pfr
+RankALS,FAR,NDCG,0.0526,Joint-5%,COUNTRY_low_pfr
+BPR,FairStar,NDCG,0.0596,Joint-5%,COUNTRY_low_pfr
+BMF,FairStar,NDCG,0.0341,Joint-5%,COUNTRY_low_pfr
+SLIM,FairStar,NDCG,0.01695,Joint-5%,COUNTRY_low_pfr
+RankALS,FairStar,NDCG,0.0528,Joint-5%,COUNTRY_low_pfr
+BPR,PFAR,NDCG,0.0625,Joint-5%,COUNTRY_low_pfr
+BMF,PFAR,NDCG,0.034,Joint-5%,COUNTRY_low_pfr
+SLIM,PFAR,NDCG,0.0163,Joint-5%,COUNTRY_low_pfr
+RankALS,PFAR,NDCG,0.0526,Joint-5%,COUNTRY_low_pfr
+BPR,FAR,NDCG,0.0694,Joint-2%,COUNTRY_low_pfr
+BMF,FAR,NDCG,0.0326,Joint-2%,COUNTRY_low_pfr
+SLIM,FAR,NDCG,0.0167,Joint-2%,COUNTRY_low_pfr
+RankALS,FAR,NDCG,0.0554,Joint-2%,COUNTRY_low_pfr
+BPR,FairStar,NDCG,0.0644,Joint-2%,COUNTRY_low_pfr
+BMF,FairStar,NDCG,0.0644,Joint-2%,COUNTRY_low_pfr
+SLIM,FairStar,NDCG,0.0167,Joint-2%,COUNTRY_low_pfr
+RankALS,FairStar,NDCG,0.0554,Joint-2%,COUNTRY_low_pfr
+BPR,PFAR,NDCG,0.0649,Joint-2%,COUNTRY_low_pfr
+BMF,PFAR,NDCG,0.0328,Joint-2%,COUNTRY_low_pfr
+SLIM,PFAR,NDCG,0.0167,Joint-2%,COUNTRY_low_pfr
+RankALS,PFAR,NDCG,0.0554,Joint-2%,COUNTRY_low_pfr
+BPR,None,NDCG,0.0658,Original,
+BMF,None,NDCG,0.0325,Original,
+SLIM,None,NDCG,0.0167,Original,
+RankALS,None,NDCG,0.0554,Original,
+BPR,FAR,NDCG,0.0595,Separate,Loan Bucket 5
+BMF,FAR,NDCG,0.033,Separate,Loan Bucket 5
+SLIM,FAR,NDCG,0.0161,Separate,Loan Bucket 5
+RankALS,FAR,NDCG,0.0522,Separate,Loan Bucket 5
+BPR,FairStar,NDCG,0.0596,Separate,Loan Bucket 5
+BMF,FairStar,NDCG,0.0341,Separate,Loan Bucket 5
+SLIM,FairStar,NDCG,0.016,Separate,Loan Bucket 5
+RankALS,FairStar,NDCG,0.0529,Separate,Loan Bucket 5
+BPR,PFAR,NDCG,0.0633,Separate,Loan Bucket 5
+BMF,PFAR,NDCG,0.0594,Separate,Loan Bucket 5
+SLIM,PFAR,NDCG,0.016,Separate,Loan Bucket 5
+RankALS,PFAR,NDCG,0.0535,Separate,Loan Bucket 5
+BPR,FAR,NDCG,0.0642,Joint,Loan Bucket 5
+BMF,FAR,NDCG,0.0312,Joint,Loan Bucket 5
+SLIM,FAR,NDCG,0.015,Joint,Loan Bucket 5
+RankALS,FAR,NDCG,0.0535,Joint,Loan Bucket 5
+BPR,FairStar,NDCG,0.0593,Joint,Loan Bucket 5
+SLIM,FairStar,NDCG,0.0159,Joint,Loan Bucket 5
+RankALS,FairStar,NDCG,0.0527,Joint,Loan Bucket 5
+BPR,PFAR,NDCG,0.0645,Joint,Loan Bucket 5
+BMF,PFAR,NDCG,0.0312,Joint,Loan Bucket 5
+SLIM,PFAR,NDCG,0.016,Joint,Loan Bucket 5
+RankALS,PFAR,NDCG,0.0535,Joint,Loan Bucket 5
+BPR,FAR,NDCG,0.0694,Joint-5%,Loan Bucket 5
+BMF,FAR,NDCG,0.033,Joint-5%,Loan Bucket 5
+SLIM,FAR,NDCG,0.0162,Joint-5%,Loan Bucket 5
+RankALS,FAR,NDCG,0.0529,Joint-5%,
+BPR,FairStar,NDCG,0.0596,Joint-5%,Loan Bucket 5
+BMF,FairStar,NDCG,0.0341,Joint-5%,Loan Bucket 5
+SLIM,FairStar,NDCG,0.01695,Joint-5%,Loan Bucket 5
+RankALS,FairStar,NDCG,0.0524,Joint-5%,Loan Bucket 5
+BPR,PFAR,NDCG,0.0692,Joint-5%,Loan Bucket 5
+BMF,PFAR,NDCG,0.033,Joint-5%,Loan Bucket 5
+SLIM,PFAR,NDCG,0.0165,Joint-5%,Loan Bucket 5
+RankALS,PFAR,NDCG,0.0529,Joint-5%,Loan Bucket 5
+BPR,FAR,NDCG,0.0694,Joint-2%,Loan Bucket 5
+BMF,FAR,NDCG,0.0326,Joint-2%,Loan Bucket 5
+SLIM,FAR,NDCG,0.0167,Joint-2%,Loan Bucket 5
+RankALS,FAR,NDCG,0.0554,Joint-2%,
+BPR,FairStar,NDCG,0.033,Joint-2%,Loan Bucket 5
+BMF,FairStar,NDCG,0.0331,Joint-2%,Loan Bucket 5
+SLIM,FairStar,NDCG,0.0167,Joint-2%,Loan Bucket 5
+RankALS,FairStar,NDCG,0.0554,Joint-2%,Loan Bucket 5
+BPR,PFAR,NDCG,0.06368,Joint-2%,Loan Bucket 5
+BMF,PFAR,NDCG,0.0303,Joint-2%,Loan Bucket 5
+SLIM,PFAR,NDCG,0.0167,Joint-2%,Loan Bucket 5
+RankALS,PFAR,NDCG,0.0548,Joint-2%,Loan Bucket 5

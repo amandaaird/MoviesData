@@ -64,18 +64,7 @@
 				<value>0.08</value>
 
 			</param>
-			<param name="alpha">
-				<value>0.0</value>
 
-				<value>0.02</value>
-
-				<value>0.04</value>
-
-				<value>0.06</value>
-	
-				<value>0.08</value>
-		
-			</param>
 			<param name="binary">False</param>
 			<param name="protected_feature" type="item">COUNTRY_low_pfr</param>
 		</script>

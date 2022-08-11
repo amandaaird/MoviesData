@@ -11,7 +11,7 @@
 	<features>
 		<appender-class>net.librec.data.convertor.appender.ItemFeatureAppender</appender-class>
 		<item-feature-file>loan_feature_df_hc_10core.csv</item-feature-file>
-		<protected-feature name="fea:COUNTRY_low_pfr" type="item">COUNTRY_low_pfr</protected-feature>
+		<protected-feature name="fea:loan_buck_5" type="item">loan_buck_5</protected-feature>
 	</features>
 	
 	
@@ -33,7 +33,7 @@
 		<ranking>true</ranking>
 		<list-size>50</list-size>
 		<class>ndcg</class>
-		<protected-feature type="item">COUNTRY_low_pfr</protected-feature>
+		<protected-feature type="item">loan_buck_5</protected-feature>
 
 		<script src="system" lang="python3">
 			<script-name>ndcg_metric.py</script-name>
@@ -43,7 +43,7 @@
 		<script src="system" lang="python3">
 			<script-name>psp.py</script-name>
 			<param name="list_size">10</param>
-			<param name="protected_feature">COUNTRY_low_pfr</param>
+			<param name="protected_feature">loan_buck_5</param>
 		</script>
 	</metric>
 
@@ -67,7 +67,7 @@
 
 			</param>
 			<param name="binary">False</param>
-			<param name="protected_feature" type="item">COUNTRY_low_pfr</param>
+			<param name="protected_feature" type="item">loan_buck_5</param>
 		</script>
 	</rerank>
 	

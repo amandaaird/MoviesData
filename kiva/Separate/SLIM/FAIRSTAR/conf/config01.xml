@@ -55,28 +55,26 @@
 			<param var="true" name="lambda">0</param>
 			<param name="lambda">
 				<value>0.0</value>
-				<value>0.0</value>
-				<value>0.1</value>
-				<value>0.2</value>
-				<value>0.3</value>
-				<value>0.4</value>
-				<value>0.5</value>
-				<value>0.6</value>
-				<value>0.7</value>
-				<value>0.8</value>
-				<value>0.9</value>
+				<value>0.02</value>
+
+				<value>0.04</value>
+
+				<value>0.06</value>
+
+				<value>0.08</value>
+
 			</param>
 			<param name="alpha">
 				<value>0.0</value>
-				<value>0.1</value>
-				<value>0.2</value>
-				<value>0.3</value>
-				<value>0.4</value>
-				<value>0.5</value>
-				<value>0.6</value>
-				<value>0.7</value>
-				<value>0.8</value>
-				<value>0.9</value>
+
+				<value>0.02</value>
+
+				<value>0.04</value>
+
+				<value>0.06</value>
+	
+				<value>0.08</value>
+		
 			</param>
 			<param name="binary">False</param>
 			<param name="protected_feature" type="item">COUNTRY_low_pfr</param>

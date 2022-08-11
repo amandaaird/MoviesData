@@ -1,0 +1,56 @@
+BPR,,0.0658,-0.828,Original,
+BMF,,0.0325,-0.628,Original,
+SLIM,,0.0167,-0.773,Original,
+RankALS,,0.0554,-0.723,Original,
+,,,,,
+BPR,FAR,0.0595,-0.328,Separate,Loan Bucket 5
+BMF,FAR,0.033,0.107,Separate,Loan Bucket 5
+SLIM,FAR,0.0161,-0.094,Separate,Loan Bucket 5
+RankALS,FAR,0.0522,-0.321,Separate,Loan Bucket 5
+BPR,FairStar,0.0596,-0.603,Separate,Loan Bucket 5
+BMF,FairStar,0.0341,0.106,Separate,Loan Bucket 5
+SLIM,FairStar,0.016,-0.094,Separate,Loan Bucket 5
+RankALS,FairStar,0.0529,-0.331,Separate,Loan Bucket 5
+BPR,PFAR,0.0633,-0.377,Separate,Loan Bucket 5
+BMF,PFAR,,,Separate,Loan Bucket 5
+SLIM,PFAR,0.016,-0.141,Separate,Loan Bucket 5
+RankALS,PFAR,0.0535,-0.368,Separate,Loan Bucket 5
+,,,,,
+BPR,FAR,0.0642,-0.64,Joint,Loan Bucket 5
+BMF,FAR,0.0312,-0.202,Joint,Loan Bucket 5
+SLIM,FAR,0.015,-0.202,Joint,Loan Bucket 5
+RankALS,FAR,0.0535,-0.368,Joint,Loan Bucket 5
+BPR,FairStar,0.0593,-0.61,Joint,Loan Bucket 5
+BMF,FairStar,0.292,-0.595,Joint,Loan Bucket 5
+SLIM,FairStar,0.0159,-0.345,Joint,Loan Bucket 5
+RankALS,FairStar,,,Joint,Loan Bucket 5
+BPR,PFAR,,,Joint,Loan Bucket 5
+BMF,PFAR,,,Joint,Loan Bucket 5
+SLIM,PFAR,,,Joint,Loan Bucket 5
+RankALS,PFAR,0.0535,-0.368,Joint,Loan Bucket 5
+,,,,,
+BPR,FAR,0.0694,-0.29,Joint-5%,Loan Bucket 5
+BMF,FAR,0.033,0.107,Joint-5%,Loan Bucket 5
+SLIM,FAR,0.0162,-0.206,Joint-5%,Loan Bucket 5
+RankALS,FAR,,,Joint-5%,
+BPR,FairStar,0.0596,-0.603,Joint-5%,Loan Bucket 5
+BMF,FairStar,0.0341,0.106,Joint-5%,Loan Bucket 5
+SLIM,FairStar,0.01695,-0.311,Joint-5%,Loan Bucket 5
+RankALS,FairStar,,,Joint-5%,Loan Bucket 5
+BPR,PFAR,,,Joint-5%,Loan Bucket 5
+BMF,PFAR,,,Joint-5%,Loan Bucket 5
+SLIM,PFAR,,,Joint-5%,Loan Bucket 5
+RankALS,PFAR,0.0529,-0.331,Joint-5%,Loan Bucket 5
+,,,,,
+BPR,FAR,0.0694,-0.29,Joint-2%,Loan Bucket 5
+BMF,FAR,0.0326,-0.486,Joint-2%,Loan Bucket 5
+SLIM,FAR,0.0167,-0.773,Joint-2%,Loan Bucket 5
+RankALS,FAR,,,Joint-2%,
+BPR,FairStar,0.033,0.107,Joint-2%,Loan Bucket 5
+BMF,FairStar,0.0331,0.0461,Joint-2%,Loan Bucket 5
+SLIM,FairStar,0.0167,-0.773,Joint-2%,Loan Bucket 5
+RankALS,FairStar,,,Joint-2%,Loan Bucket 5
+BPR,PFAR,0.06368,-0.7467,Joint-2%,Loan Bucket 5
+BMF,PFAR,0.0303,-0.615,Joint-2%,Loan Bucket 5
+SLIM,PFAR,0.0167,-0.773,Joint-2%,Loan Bucket 5
+RankALS,PFAR,,,Joint-2%,Loan Bucket 5

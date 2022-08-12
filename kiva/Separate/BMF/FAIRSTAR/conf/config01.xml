@@ -67,17 +67,7 @@
 			<script-name>pfar_rerank.py</script-name>
 			<param name="max_len">10</param>
 			<param name="lambda">
-				<value>0.0</value>
-				<value>0.01</value>
-				<value>0.02</value>
-				<value>0.03</value>
-				<value>0.04</value>
-				<value>0.05</value>
-				<value>0.06</value>
-				<value>0.07</value>
-				<value>0.08</value>
-				<value>0.09</value>
-				<value>0.1</value>
+				<value>0.25</value>
 			</param>
 			<param name="binary">False</param>
 			<param name="protected_feature" ref="fea:loan_buck_5"/>

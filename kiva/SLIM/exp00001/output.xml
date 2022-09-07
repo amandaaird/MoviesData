@@ -11,74 +11,54 @@
     </param>
     <param>
       <name>lambda</name>
-      <value>0</value>
+      <value>0.2</value>
+    </param>
+    <param>
+      <name>alpha</name>
+      <value>0.0</value>
     </param>
   </meta>
   <statuses>
     <status>
       <message>Executing</message>
       <exp_no>1</exp_no>
-      <date>2022-07-26 21:30:46.099573</date>
+      <date>2022-08-04 23:07:35.415651</date>
     </status>
     <status>
       <message>Completed</message>
-      <date>2022-07-26 21:31:19.744479</date>
+      <date>2022-08-04 23:17:06.201113</date>
     </status>
     <status>
       <message>Executing</message>
-      <date>2022-07-26 22:39:19.971408</date>
+      <date>2022-08-05 22:41:33.854344</date>
     </status>
     <status>
       <message>Completed</message>
-      <date>2022-07-26 22:39:23.603011</date>
-    </status>
-    <status>
-      <message>Executing</message>
-      <date>2022-07-26 23:56:44.216796</date>
-    </status>
-    <status>
-      <message>Completed</message>
-      <date>2022-07-26 23:56:48.143584</date>
-    </status>
-    <status>
-      <message>Executing</message>
-      <date>2022-07-27 19:43:21.846199</date>
-    </status>
-    <status>
-      <message>Completed</message>
-      <date>2022-07-27 19:43:26.677203</date>
-    </status>
-    <status>
-      <message>Executing</message>
-      <date>2022-07-27 20:11:39.273100</date>
-    </status>
-    <status>
-      <message>Completed</message>
-      <date>2022-07-27 20:11:43.591427</date>
+      <date>2022-08-05 22:42:30.043631</date>
     </status>
   </statuses>
   <results>
     <folds>
       <cv id="1">
-        <metric name="NormalizedDCGEvaluator">0.01952662837638328</metric>
-        <metric name="ndcg_metric.py">0.016933755657107558</metric>
-        <metric name="psp.py">-0.7812077173640692</metric>
+        <metric name="NormalizedDCGEvaluator">0.01725130710223618</metric>
+        <metric name="ndcg_metric.py">0.012224086171637769</metric>
+        <metric name="psp.py">-0.780773092369478</metric>
       </cv>
       <cv id="2">
-        <metric name="NormalizedDCGEvaluator">0.020184342592747432</metric>
-        <metric name="ndcg_metric.py">0.01632603363340423</metric>
-        <metric name="psp.py">-0.7758776328986962</metric>
+        <metric name="NormalizedDCGEvaluator">0.01692830297842445</metric>
+        <metric name="ndcg_metric.py">0.01305899107523488</metric>
+        <metric name="psp.py">-0.796742671009772</metric>
       </cv>
       <cv id="3">
-        <metric name="NormalizedDCGEvaluator">0.021738381222072282</metric>
-        <metric name="ndcg_metric.py">0.01678383859963984</metric>
-        <metric name="psp.py">-0.761495983935743</metric>
+        <metric name="NormalizedDCGEvaluator">0.018707430275635175</metric>
+        <metric name="ndcg_metric.py">0.012570869773693769</metric>
+        <metric name="psp.py">-0.7984453360080241</metric>
       </cv>
     </folds>
     <averages>
-      <metric name="NormalizedDCGEvaluator">0.020483117397067666</metric>
-      <metric name="ndcg_metric.py">0.01668120929671721</metric>
-      <metric name="psp.py">-0.7728604447328361</metric>
+      <metric name="NormalizedDCGEvaluator">0.017629013452098604</metric>
+      <metric name="ndcg_metric.py">0.012617982340188806</metric>
+      <metric name="psp.py">-0.7919870331290914</metric>
     </averages>
   </results>
 </experiment>

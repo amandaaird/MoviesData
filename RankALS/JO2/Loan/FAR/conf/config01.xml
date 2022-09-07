@@ -60,7 +60,7 @@
             <script-name>far_rerank.py</script-name>
             <param name="max_len">10</param>
             <param name="lambda">
-                <lower>0.0</lower>
+                <lower>0.01</lower>
                 <higher>1</higher>
             </param>
 

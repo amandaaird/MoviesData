@@ -55,26 +55,12 @@
 			<param name="max_len">10</param>
 			<param var="true" name="lambda">0</param>
 			<param name="lambda">
-				<value>0.0</value>
-				<value>0.02</value>
-
-				<value>0.04</value>
-
-				<value>0.06</value>
-
-				<value>0.08</value>
+				<value>0.1</value>
 
 			</param>
 			<param name="alpha">
-				<value>0.0</value>
-
-				<value>0.02</value>
-
-				<value>0.04</value>
-
-				<value>0.06</value>
-	
-				<value>0.08</value>
+				
+				<value>0.8</value>
 			</param>
 			<param name="binary">False</param>
 			<param name="protected_feature" type="item">loan_buck_5</param>

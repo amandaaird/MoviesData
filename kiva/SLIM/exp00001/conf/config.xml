@@ -56,7 +56,20 @@
 		<script lang="python3" src="system">
 			<script-name>pfar_rerank.py</script-name>
 			<param name="max_len">10</param>
-			<param var="true" name="lambda">0</param><param name="binary">False</param>
+			<param var="true" name="lambda">0.2</param><param name="lambda">
+				<value>0.0</value>
+			
+				
+				<value>0.2</value>
+				
+				<value>0.4</value>
+				
+				<value>0.6</value>
+			
+				<value>0.8</value>
+			
+			</param>
+			<param var="true" name="alpha">0.0</param><param name="binary">False</param>
 			<param name="protected_feature" type="item">loan_buck_5</param>
 		</script>
 	</rerank>

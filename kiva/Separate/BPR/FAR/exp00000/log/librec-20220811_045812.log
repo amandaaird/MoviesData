@@ -1,0 +1,23 @@
+22/08/11 04:58:13 INFO TextDataConvertor: Dataset: [data/rating_5000_cls_hc_10core_iterative.csv]
+22/08/11 04:58:14 INFO TextDataConvertor: DataSet: ...ng_5000_cls_hc_10core_iterative.csv is finished
+22/08/11 04:58:14 INFO TextDataConvertor: rating Scale (real): 3.0 to 5.0
+22/08/11 04:58:14 INFO TextDataConvertor: user number: 4005,	 item number is: 2673
+22/08/11 04:58:14 INFO TextDataModel: Transform data to Convertor successfully!
+22/08/11 04:58:16 INFO TextDataModel: Split data to train Set and test Set successfully!
+22/08/11 04:58:16 INFO TextDataModel: Feature appender loaded successfully!
+22/08/11 04:58:16 INFO RecommenderJob: SplitCMD: START - Splitting training and testing.
+22/08/11 04:58:17 INFO RecommenderJob: SplitCMD: Splitting training and testing with 0.8% ratio on fold 1.
+22/08/11 04:58:17 INFO TextDataModel: Split data to train Set and test Set successfully!
+22/08/11 04:58:17 INFO TextDataModel: Data cardinality of training is 73580
+22/08/11 04:58:17 INFO TextDataModel: Data cardinality of testing is 36791
+22/08/11 04:58:17 INFO RecommenderJob: SplitCMD: START - Splitting training and testing.
+22/08/11 04:58:17 INFO RecommenderJob: SplitCMD: Splitting training and testing with 0.8% ratio on fold 2.
+22/08/11 04:58:17 INFO TextDataModel: Split data to train Set and test Set successfully!
+22/08/11 04:58:17 INFO TextDataModel: Data cardinality of training is 73581
+22/08/11 04:58:17 INFO TextDataModel: Data cardinality of testing is 36790
+22/08/11 04:58:17 INFO RecommenderJob: SplitCMD: START - Splitting training and testing.
+22/08/11 04:58:18 INFO RecommenderJob: SplitCMD: Splitting training and testing with 0.8% ratio on fold 3.
+22/08/11 04:58:18 INFO TextDataModel: Split data to train Set and test Set successfully!
+22/08/11 04:58:18 INFO TextDataModel: Data cardinality of training is 73581
+22/08/11 04:58:18 INFO TextDataModel: Data cardinality of testing is 36790
+22/08/11 04:58:18 INFO RecommenderJob: Average Evaluation Result of Cross Validation:
